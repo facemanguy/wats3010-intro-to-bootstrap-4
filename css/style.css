@@ -1,4 +1,15 @@
-/* Site Styles Go Here */
+/* Site Styles Go Here 
+
+Color Scheme
+#160b00 Smoky Black
+#2d0e00 Zinnwaldite Brown
+#601b00 Seal Brown
+#402317 Bistre
+#935600 Brown
+#c17700 Ginger
+#fffdd00 Cream
+#ffcf40 Gold
+*/
 
 .footer-flex{
     display: flex;
@@ -8,4 +19,73 @@
 
 .footer-item-flex{
     flex: 0 1 auto;
+}
+
+body{
+    background-color: #2d0e00;
+    color: #fffdd0;
+}
+
+h1{
+    color: #fffdd0;
+}
+
+a{
+    color: #ffcf40;
+}
+
+a:hover{
+    color: #ffef40;
+}
+
+.card{
+    background-color: #ffcf40;
+}
+
+.card-header{
+    background-color: #160b00;
+    color: #fffdd0;
+}
+
+.card-body{
+    background-color: #402317;
+    color: #fffdd0;
+}
+
+.card-footer{
+    background-color: #160b00;
+    color: #fffdd0;
+}
+
+.btn{
+    color: #fffdd0;
+    background-color: #c17700;
+    border-color: #c17700;
+}
+
+.btn-primary:hover{
+    color: #160b00;
+    background-color: #ffcf40;
+    border-color: #fffdd0;
+}
+
+.breadcrumb{
+    background-color: #160b00;
+}
+
+.breadcrumb-item.active{
+    color: #fffdd0;
+}
+
+.form-control{
+    background-color: #fffdd0;
+}
+
+.bg-dark{
+    background-color: #160b00 !important;
+}
+
+.img-thumbnail{
+    background-color: #fffdd0;
+    border-color: #fffdd0;
 }
