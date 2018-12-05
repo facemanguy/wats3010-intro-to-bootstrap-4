@@ -100,7 +100,8 @@ a:hover{
 
 .img-thumbnail:hover{
     filter: sepia(0);
-
+    animation-name: wobble;
+    animation-duration: 0.2s;
 }
 
 @keyframes line{
@@ -108,4 +109,12 @@ a:hover{
     40%{text-decoration-color: #ffcf408e;}
     80%{text-decoration-color: #ffcf40d5;}
     100%{text-decoration-color: #ffcf40;}
+}
+
+@keyframes wobble{
+    0%{transform: translate(0px, 0px);}
+    25%{transform: translate(-2px, -2px);}
+    50%{transform: translate(0px, 0px);}
+    75%{transform: translate(2px, 2px);}
+    100%{transform: translate(0px, 0px);}
 }
